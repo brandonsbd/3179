@@ -1,0 +1,271 @@
+Departing_Port,Arriving_Port,Airline,Sectors_Flown,Departing_Latitude,Departing_Longitude,Arriving_Latitude,Arriving_Longitude
+Adelaide,Brisbane,Jetstar,1485,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Brisbane,Qantas,2416,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Brisbane,QantasLink,3595,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Brisbane,Rex Airlines,119,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Brisbane,Tigerair Australia,46,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Brisbane,Virgin Australia,5273,-34.945,138.5306,-27.3842,153.1175
+Adelaide,Cairns,Jetstar,99,-34.945,138.5306,-16.8858,145.7553
+Adelaide,Cairns,QantasLink,9,-34.945,138.5306,-16.8858,145.7553
+Adelaide,Cairns,Virgin Australia,37,-34.945,138.5306,-16.8858,145.7553
+Adelaide,Canberra,Qantas,510,-34.945,138.5306,-35.3069,149.195
+Adelaide,Canberra,QantasLink,2638,-34.945,138.5306,-35.3069,149.195
+Adelaide,Canberra,Virgin Australia,891,-34.945,138.5306,-35.3069,149.195
+Adelaide,Darwin,Jetstar,159,-34.945,138.5306,-12.4147,130.8767
+Adelaide,Darwin,QantasLink,356,-34.945,138.5306,-12.4147,130.8767
+Adelaide,Darwin,Virgin Australia,72,-34.945,138.5306,-12.4147,130.8767
+Adelaide,Gold Coast,Jetstar,1323,-34.945,138.5306,-28.1644,153.5051
+Adelaide,Gold Coast,QantasLink,115,-34.945,138.5306,-28.1644,153.5051
+Adelaide,Gold Coast,Virgin Australia,1486,-34.945,138.5306,-28.1644,153.5051
+Adelaide,Melbourne,Jetstar,4306,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Qantas,9408,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,QantasLink,324,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Regional Express,143,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Rex Airlines,1754,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Tigerair Australia,126,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Virgin Australia,9770,-34.945,138.5306,-37.669,144.841
+Adelaide,Melbourne,Virgin Australia Regional Airlines,16,-34.945,138.5306,-37.669,144.841
+Adelaide,Perth,Jetstar,1104,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Perth,Qantas,3956,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Perth,QantasLink,32,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Perth,Rex Airlines,14,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Perth,Virgin Australia,1346,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Perth,Virgin Australia Regional Airlines,1178,-34.945,138.5306,-31.9403,115.9676
+Adelaide,Sydney,Jetstar,4453,-34.945,138.5306,-33.9399,151.1753
+Adelaide,Sydney,Qantas,8951,-34.945,138.5306,-33.9399,151.1753
+Adelaide,Sydney,Rex Airlines,334,-34.945,138.5306,-33.9399,151.1753
+Adelaide,Sydney,Tigerair Australia,46,-34.945,138.5306,-33.9399,151.1753
+Adelaide,Sydney,Virgin Australia,6020,-34.945,138.5306,-33.9399,151.1753
+Brisbane,Adelaide,Jetstar,1487,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Adelaide,Qantas,2413,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Adelaide,QantasLink,3589,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Adelaide,Rex Airlines,119,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Adelaide,Tigerair Australia,46,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Adelaide,Virgin Australia,5279,-27.3842,153.1175,-34.945,138.5306
+Brisbane,Cairns,Jetstar,4516,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Cairns,Qantas,4735,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Cairns,QantasLink,2687,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Cairns,Rex Airlines,50,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Cairns,Tigerair Australia,57,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Cairns,Virgin Australia,6659,-27.3842,153.1175,-16.8858,145.7553
+Brisbane,Canberra,Jetstar,880,-27.3842,153.1175,-35.3069,149.195
+Brisbane,Canberra,Qantas,651,-27.3842,153.1175,-35.3069,149.195
+Brisbane,Canberra,QantasLink,6228,-27.3842,153.1175,-35.3069,149.195
+Brisbane,Canberra,Tigerair Australia,50,-27.3842,153.1175,-35.3069,149.195
+Brisbane,Canberra,Virgin Australia,4062,-27.3842,153.1175,-35.3069,149.195
+Brisbane,Darwin,Jetstar,1086,-27.3842,153.1175,-12.4147,130.8767
+Brisbane,Darwin,Qantas,1518,-27.3842,153.1175,-12.4147,130.8767
+Brisbane,Darwin,QantasLink,535,-27.3842,153.1175,-12.4147,130.8767
+Brisbane,Darwin,Tigerair Australia,19,-27.3842,153.1175,-12.4147,130.8767
+Brisbane,Darwin,Virgin Australia,1702,-27.3842,153.1175,-12.4147,130.8767
+Brisbane,Melbourne,Jetstar,5885,-27.3842,153.1175,-37.669,144.841
+Brisbane,Melbourne,Qantas,14085,-27.3842,153.1175,-37.669,144.841
+Brisbane,Melbourne,QantasLink,155,-27.3842,153.1175,-37.669,144.841
+Brisbane,Melbourne,Rex Airlines,1648,-27.3842,153.1175,-37.669,144.841
+Brisbane,Melbourne,Tigerair Australia,219,-27.3842,153.1175,-37.669,144.841
+Brisbane,Melbourne,Virgin Australia,13774,-27.3842,153.1175,-37.669,144.841
+Brisbane,Perth,Jetstar,711,-27.3842,153.1175,-31.9403,115.9676
+Brisbane,Perth,Qantas,5823,-27.3842,153.1175,-31.9403,115.9676
+Brisbane,Perth,Virgin Australia,4206,-27.3842,153.1175,-31.9403,115.9676
+Brisbane,Sydney,Jetstar,6310,-27.3842,153.1175,-33.9399,151.1753
+Brisbane,Sydney,Qantas,20470,-27.3842,153.1175,-33.9399,151.1753
+Brisbane,Sydney,QantasLink,15,-27.3842,153.1175,-33.9399,151.1753
+Brisbane,Sydney,Rex Airlines,3666,-27.3842,153.1175,-33.9399,151.1753
+Brisbane,Sydney,Tigerair Australia,239,-27.3842,153.1175,-33.9399,151.1753
+Brisbane,Sydney,Virgin Australia,16813,-27.3842,153.1175,-33.9399,151.1753
+Cairns,Adelaide,Jetstar,99,-16.8858,145.7553,-34.945,138.5306
+Cairns,Adelaide,QantasLink,9,-16.8858,145.7553,-34.945,138.5306
+Cairns,Adelaide,Virgin Australia,37,-16.8858,145.7553,-34.945,138.5306
+Cairns,Brisbane,Jetstar,4521,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Brisbane,Qantas,4718,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Brisbane,QantasLink,2673,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Brisbane,Rex Airlines,50,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Brisbane,Tigerair Australia,57,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Brisbane,Virgin Australia,6656,-16.8858,145.7553,-27.3842,153.1175
+Cairns,Gold Coast,Jetstar,103,-16.8858,145.7553,-28.1644,153.5051
+Cairns,Gold Coast,Virgin Australia,30,-16.8858,145.7553,-28.1644,153.5051
+Cairns,Melbourne,Jetstar,3830,-16.8858,145.7553,-37.669,144.841
+Cairns,Melbourne,Qantas,1570,-16.8858,145.7553,-37.669,144.841
+Cairns,Melbourne,Tigerair Australia,73,-16.8858,145.7553,-37.669,144.841
+Cairns,Melbourne,Virgin Australia,2570,-16.8858,145.7553,-37.669,144.841
+Cairns,Sydney,Jetstar,3659,-16.8858,145.7553,-33.9399,151.1753
+Cairns,Sydney,Qantas,2213,-16.8858,145.7553,-33.9399,151.1753
+Cairns,Sydney,QantasLink,36,-16.8858,145.7553,-33.9399,151.1753
+Cairns,Sydney,Tigerair Australia,59,-16.8858,145.7553,-33.9399,151.1753
+Cairns,Sydney,Virgin Australia,3022,-16.8858,145.7553,-33.9399,151.1753
+Canberra,Adelaide,Qantas,511,-35.3069,149.195,-34.945,138.5306
+Canberra,Adelaide,QantasLink,2630,-35.3069,149.195,-34.945,138.5306
+Canberra,Adelaide,Virgin Australia,891,-35.3069,149.195,-34.945,138.5306
+Canberra,Brisbane,Jetstar,881,-35.3069,149.195,-27.3842,153.1175
+Canberra,Brisbane,Qantas,647,-35.3069,149.195,-27.3842,153.1175
+Canberra,Brisbane,QantasLink,6203,-35.3069,149.195,-27.3842,153.1175
+Canberra,Brisbane,Tigerair Australia,50,-35.3069,149.195,-27.3842,153.1175
+Canberra,Brisbane,Virgin Australia,4067,-35.3069,149.195,-27.3842,153.1175
+Canberra,Gold Coast,Jetstar,440,-35.3069,149.195,-28.1644,153.5051
+Canberra,Gold Coast,QantasLink,22,-35.3069,149.195,-28.1644,153.5051
+Canberra,Gold Coast,Virgin Australia,775,-35.3069,149.195,-28.1644,153.5051
+Canberra,Melbourne,Jetstar,742,-35.3069,149.195,-37.669,144.841
+Canberra,Melbourne,Qantas,812,-35.3069,149.195,-37.669,144.841
+Canberra,Melbourne,QantasLink,8593,-35.3069,149.195,-37.669,144.841
+Canberra,Melbourne,Rex Airlines,901,-35.3069,149.195,-37.669,144.841
+Canberra,Melbourne,Tigerair Australia,69,-35.3069,149.195,-37.669,144.841
+Canberra,Melbourne,Virgin Australia,4802,-35.3069,149.195,-37.669,144.841
+Canberra,Sydney,Qantas,337,-35.3069,149.195,-33.9399,151.1753
+Canberra,Sydney,QantasLink,13891,-35.3069,149.195,-33.9399,151.1753
+Canberra,Sydney,Regional Express,414,-35.3069,149.195,-33.9399,151.1753
+Canberra,Sydney,Rex Airlines,600,-35.3069,149.195,-33.9399,151.1753
+Canberra,Sydney,Virgin Australia,7412,-35.3069,149.195,-33.9399,151.1753
+Darwin,Adelaide,Jetstar,161,-12.4147,130.8767,-34.945,138.5306
+Darwin,Adelaide,QantasLink,357,-12.4147,130.8767,-34.945,138.5306
+Darwin,Adelaide,virgin Australia,72,-12.4147,130.8767,-34.945,138.5306
+Darwin,Brisbane,Jetstar,1082,-12.4147,130.8767,-27.3842,153.1175
+Darwin,Brisbane,Qantas,1497,-12.4147,130.8767,-27.3842,153.1175
+Darwin,Brisbane,QantasLink,541,-12.4147,130.8767,-27.3842,153.1175
+Darwin,Brisbane,Tigerair Australia,18,-12.4147,130.8767,-27.3842,153.1175
+Darwin,Brisbane,Virgin Australia,1695,-12.4147,130.8767,-27.3842,153.1175
+Darwin,Melbourne,Jetstar,806,-12.4147,130.8767,-37.669,144.841
+Darwin,Melbourne,Qantas,1003,-12.4147,130.8767,-37.669,144.841
+Darwin,Melbourne,QantasLink,159,-12.4147,130.8767,-37.669,144.841
+Darwin,Melbourne,Virgin Australia,1029,-12.4147,130.8767,-37.669,144.841
+Darwin,Perth,Qantas,782,-12.4147,130.8767,-31.9403,115.9676
+Darwin,Perth,QantasLink,790,-12.4147,130.8767,-31.9403,115.9676
+Darwin,Perth,Virgin Australia,389,-12.4147,130.8767,-31.9403,115.9676
+Darwin,Perth,Virgin Australia Regional Airlines,627,-12.4147,130.8767,-31.9403,115.9676
+Darwin,Sydney,Jetstar,262,-12.4147,130.8767,-33.9399,151.1753
+Darwin,Sydney,Qantas,496,-12.4147,130.8767,-33.9399,151.1753
+Darwin,Sydney,Virgin Australia,280,-12.4147,130.8767,-33.9399,151.1753
+Gold Coast,Adelaide,Jetstar,1322,-28.1644,153.5051,-34.945,138.5306
+Gold Coast,Adelaide,QantasLink,114,-28.1644,153.5051,-34.945,138.5306
+Gold Coast,Adelaide,Virgin Australia,1484,-28.1644,153.5051,-34.945,138.5306
+Gold Coast,Cairns,Jetstar,100,-28.1644,153.5051,-16.8858,145.7553
+Gold Coast,Cairns,Virgin Australia,31,-28.1644,153.5051,-16.8858,145.7553
+Gold Coast,Canberra,Jetstar,441,-28.1644,153.5051,-35.3069,149.195
+Gold Coast,Canberra,QantasLink,22,-28.1644,153.5051,-35.3069,149.195
+Gold Coast,Canberra,Virgin Australia,774,-28.1644,153.5051,-35.3069,149.195
+Gold Coast,Melbourne,Bonza,62,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Jetstar,8092,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Qantas,1786,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,QantasLink,371,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Regional Express,156,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Rex Airlines,1127,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Tigerair Australia,156,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Melbourne,Virgin Australia,10121,-28.1644,153.5051,-37.669,144.841
+Gold Coast,Sydney,Jetstar,9607,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,Qantas,3652,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,QantasLink,704,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,Regional Express,172,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,Rex Airlines,1046,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,Tigerair Australia,166,-28.1644,153.5051,-33.9399,151.1753
+Gold Coast,Sydney,Virgin Australia,11371,-28.1644,153.5051,-33.9399,151.1753
+Melbourne,Adelaide,Jetstar,4329,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Qantas,9439,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,QantasLink,324,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Regional Express,142,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Rex Airlines,1755,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Tigerair Australia,126,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Virgin Australia,9783,-37.669,144.841,-34.945,138.5306
+Melbourne,Adelaide,Virgin Australia Regional Airlines,16,-37.669,144.841,-34.945,138.5306
+Melbourne,Brisbane,Jetstar,5915,-37.669,144.841,-27.3842,153.1175
+Melbourne,Brisbane,Qantas,14097,-37.669,144.841,-27.3842,153.1175
+Melbourne,Brisbane,QantasLink,158,-37.669,144.841,-27.3842,153.1175
+Melbourne,Brisbane,Rex Airlines,1649,-37.669,144.841,-27.3842,153.1175
+Melbourne,Brisbane,Tigerair Australia,219,-37.669,144.841,-27.3842,153.1175
+Melbourne,Brisbane,Virgin Australia,13822,-37.669,144.841,-27.3842,153.1175
+Melbourne,Cairns,Jetstar,3851,-37.669,144.841,-16.8858,145.7553
+Melbourne,Cairns,Qantas,1576,-37.669,144.841,-16.8858,145.7553
+Melbourne,Cairns,Tigerair Australia,73,-37.669,144.841,-16.8858,145.7553
+Melbourne,Cairns,Virgin Australia,2572,-37.669,144.841,-16.8858,145.7553
+Melbourne,Canberra,Jetstar,744,-37.669,144.841,-35.3069,149.195
+Melbourne,Canberra,Qantas,822,-37.669,144.841,-35.3069,149.195
+Melbourne,Canberra,QantasLink,8633,-37.669,144.841,-35.3069,149.195
+Melbourne,Canberra,Rex Airlines,898,-37.669,144.841,-35.3069,149.195
+Melbourne,Canberra,Tigerair Australia,69,-37.669,144.841,-35.3069,149.195
+Melbourne,Canberra,Virgin Australia,4810,-37.669,144.841,-35.3069,149.195
+Melbourne,Darwin,Jetstar,817,-37.669,144.841,-12.4147,130.8767
+Melbourne,Darwin,Qantas,1004,-37.669,144.841,-12.4147,130.8767
+Melbourne,Darwin,QantasLink,153,-37.669,144.841,-12.4147,130.8767
+Melbourne,Darwin,Virgin Australia,1030,-37.669,144.841,-12.4147,130.8767
+Melbourne,Gold Coast,Bonza,62,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Jetstar,8101,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Qantas,1784,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,QantasLink,371,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Regional Express,157,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Rex Airlines,1126,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Tigerair Australia,157,-37.669,144.841,-28.1644,153.5051
+Melbourne,Gold Coast,Virgin Australia,10132,-37.669,144.841,-28.1644,153.5051
+Melbourne,Perth,Jetstar,2306,-37.669,144.841,-31.9403,115.9676
+Melbourne,Perth,Qantas,7134,-37.669,144.841,-31.9403,115.9676
+Melbourne,Perth,Rex Airlines,21,-37.669,144.841,-31.9403,115.9676
+Melbourne,Perth,Tigerair Australia,101,-37.669,144.841,-31.9403,115.9676
+Melbourne,Perth,Virgin Australia,6250,-37.669,144.841,-31.9403,115.9676
+Melbourne,Sydney,Jetstar,14628,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,Qantas,31313,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,QantasLink,150,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,Regional Express,534,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,Rex Airlines,5188,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,Tigerair Australia,440,-37.669,144.841,-33.9399,151.1753
+Melbourne,Sydney,Virgin Australia,26398,-37.669,144.841,-33.9399,151.1753
+Perth,Adelaide,Jetstar,1102,-31.9403,115.9676,-34.945,138.5306
+Perth,Adelaide,Qantas,3960,-31.9403,115.9676,-34.945,138.5306
+Perth,Adelaide,QantasLink,32,-31.9403,115.9676,-34.945,138.5306
+Perth,Adelaide,Rex Airlines,14,-31.9403,115.9676,-34.945,138.5306
+Perth,Adelaide,Virgin Australia,1353,-31.9403,115.9676,-34.945,138.5306
+Perth,Adelaide,Virgin Australia Regional Airlines,1180,-31.9403,115.9676,-34.945,138.5306
+Perth,Brisbane,Jetstar,708,-31.9403,115.9676,-27.3842,153.1175
+Perth,Brisbane,Qantas,5834,-31.9403,115.9676,-27.3842,153.1175
+Perth,Brisbane,Virgin Australia,4190,-31.9403,115.9676,-27.3842,153.1175
+Perth,Darwin,Qantas,783,-31.9403,115.9676,-12.4147,130.8767
+Perth,Darwin,QantasLink,798,-31.9403,115.9676,-12.4147,130.8767
+Perth,Darwin,Virgin Australia,388,-31.9403,115.9676,-12.4147,130.8767
+Perth,Darwin,Virgin Australia Regional Airlines,631,-31.9403,115.9676,-12.4147,130.8767
+Perth,Melbourne,Jetstar,2277,-31.9403,115.9676,-37.669,144.841
+Perth,Melbourne,Qantas,7129,-31.9403,115.9676,-37.669,144.841
+Perth,Melbourne,Rex Airlines,22,-31.9403,115.9676,-37.669,144.841
+Perth,Melbourne,Tigerair Australia,101,-31.9403,115.9676,-37.669,144.841
+Perth,Melbourne,Virgin Australia,6480,-31.9403,115.9676,-37.669,144.841
+Perth,Sydney,Jetstar,1569,-31.9403,115.9676,-33.9399,151.1753
+Perth,Sydney,Qantas,7331,-31.9403,115.9676,-33.9399,151.1753
+Perth,Sydney,Tigerair Australia,51,-31.9403,115.9676,-33.9399,151.1753
+Perth,Sydney,Virgin Australia,4853,-31.9403,115.9676,-33.9399,151.1753
+Sydney,Adelaide,Jetstar,4469,-33.9399,151.1753,-34.945,138.5306
+Sydney,Adelaide,Qantas,8995,-33.9399,151.1753,-34.945,138.5306
+Sydney,Adelaide,Rex Airlines,334,-33.9399,151.1753,-34.945,138.5306
+Sydney,Adelaide,Tigerair Australia,47,-33.9399,151.1753,-34.945,138.5306
+Sydney,Adelaide,Virgin Australia,6033,-33.9399,151.1753,-34.945,138.5306
+Sydney,Brisbane,Jetstar,6326,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Brisbane,Qantas,20543,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Brisbane,QantasLink,14,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Brisbane,Rex Airlines,3674,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Brisbane,Tigerair Australia,239,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Brisbane,Virgin Australia,16742,-33.9399,151.1753,-27.3842,153.1175
+Sydney,Cairns,Jetstar,3669,-33.9399,151.1753,-16.8858,145.7553
+Sydney,Cairns,Qantas,2211,-33.9399,151.1753,-16.8858,145.7553
+Sydney,Cairns,QantasLink,36,-33.9399,151.1753,-16.8858,145.7553
+Sydney,Cairns,Tigerair Australia,59,-33.9399,151.1753,-16.8858,145.7553
+Sydney,Cairns,Virgin Australia,3024,-33.9399,151.1753,-16.8858,145.7553
+Sydney,Canberra,Qantas,336,-33.9399,151.1753,-35.3069,149.195
+Sydney,Canberra,QantasLink,14019,-33.9399,151.1753,-35.3069,149.195
+Sydney,Canberra,Regional Express,416,-33.9399,151.1753,-35.3069,149.195
+Sydney,Canberra,Rex Airlines,601,-33.9399,151.1753,-35.3069,149.195
+Sydney,Canberra,Virgin Australia,7394,-33.9399,151.1753,-35.3069,149.195
+Sydney,Darwin,Jetstar,262,-33.9399,151.1753,-12.4147,130.8767
+Sydney,Darwin,Qantas,497,-33.9399,151.1753,-12.4147,130.8767
+Sydney,Darwin,Virgin Australia,279,-33.9399,151.1753,-12.4147,130.8767
+Sydney,Gold Coast,Jetstar,9618,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,Qantas,3661,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,QantasLink,706,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,Regional Express,171,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,Rex Airlines,1044,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,Tigerair Australia,166,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Gold Coast,Virgin Australia,11386,-33.9399,151.1753,-28.1644,153.5051
+Sydney,Melbourne,Jetstar,14642,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,Qantas,31170,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,QantasLink,150,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,Regional Express,527,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,Rex Airlines,5185,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,Tigerair Australia,440,-33.9399,151.1753,-37.669,144.841
+Sydney,Melbourne,Virgin Australia,26233,-33.9399,151.1753,-37.669,144.841
+Sydney,Perth,Jetstar,1591,-33.9399,151.1753,-31.9403,115.9676
+Sydney,Perth,Qantas,7355,-33.9399,151.1753,-31.9403,115.9676
+Sydney,Perth,Tigerair Australia,52,-33.9399,151.1753,-31.9403,115.9676
+Sydney,Perth,Virgin Australia,5072,-33.9399,151.1753,-31.9403,115.9676
