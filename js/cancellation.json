@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar Chart: Cancellation Rate by Airline",
+    "title": {
+      "text": "Cancellation Rate by Airline",
+      "anchor": "start", 
+      "fontSize": 24,
+      "font": "Merriweather",
+      "fontWeight": "bold",
+      "color": "#333"
+    },
+    "width": 280,  
+    "height": 370, 
+    "data": {
+      "url": "https://raw.githubusercontent.com/brandonsbd/3179/refs/heads/main/data/da_otp.csv"
+    },
+    "transform": [
+      {
+        "aggregate": [
+          {
+            "op": "sum",
+            "field": "Cancellations",
+            "as": "Total_Cancellations"
+          },
+          {
+            "op": "sum",
+            "field": "Sectors_Scheduled",
+            "as": "Total_Sectors_Scheduled"
+          }
+        ],
+        "groupby": ["Airline"]
+      },
+      {
+        "calculate": "datum.Total_Cancellations / datum.Total_Sectors_Scheduled * 100",
+        "as": "Cancellation_Rate"
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Airline",
+        "type": "nominal",
+        "title": "Airline",
+        "axis": {"labelAngle": -45} 
+      },
+      "y": {
+        "field": "Cancellation_Rate",
+        "type": "quantitative",
+        "title": "Cancellation Rate (%)"
+      },
+      "color": {
+        "field": "Cancellation_Rate",
+        "type": "quantitative",
+        "scale": {"scheme": "reds"},
+        "title": "Cancellation Rate (%)"
+      },
+      "tooltip": [
+        {"field": "Airline", "type": "nominal", "title": "Airline"},
+        {"field": "Cancellation_Rate", "type": "quantitative", "title": "Cancellation Rate (%)"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    }
+  }
+  

@@ -1,0 +1,71 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Treemap of Total Flights by Airline and Destination",
+    "title": {
+      "text": "Total Flights by Airline and Destination",
+      "anchor": "start", 
+      "fontSize": 24,
+      "font": "Merriweather",
+      "fontWeight": "bold",
+      "color": "#333"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/brandonsbd/3179/refs/heads/main/data/da_otp.csv"
+    },
+    "transform": [
+      {
+        "aggregate": [
+          {
+            "op": "sum",
+            "field": "Sectors_Flown",
+            "as": "Total_Flights"
+          }
+        ],
+        "groupby": ["Airline", "Arriving_Port"]
+      }
+    ],
+    "mark": {
+      "type": "rect",
+      "stroke": "white"
+    },
+    "encoding": {
+      "x": {
+        "field": "Airline",
+        "type": "nominal",
+        "title": "Airline",
+        "axis": {
+          "labelFontSize": 12,
+          "labelAngle": -45,  
+          "labelAlign": "right",  
+          "titleFontSize": 14
+        }
+      },
+      "y": {
+        "field": "Arriving_Port",
+        "type": "nominal",
+        "title": "Destination"
+      },
+      "color": {
+        "field": "Total_Flights",
+        "type": "quantitative",
+        "scale": {"scheme": "blues"},
+        "title": "Total Flights"
+      },
+      "size": {
+        "field": "Total_Flights",
+        "type": "quantitative",
+        "title": "Total Flights"
+      },
+      "tooltip": [
+        {"field": "Airline", "type": "nominal", "title": "Airline"},
+        {"field": "Arriving_Port", "type": "nominal", "title": "Destination"},
+        {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    }
+  }  

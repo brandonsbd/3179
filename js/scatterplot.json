@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Scatter Plot: Comparing Number of Sectors Scheduled with On-Time Departures",
+    "title": {
+      "text": "Flight Volume and Performance Correlation",
+      "anchor": "start", 
+      "fontSize": 24,
+      "font": "Merriweather",
+      "fontWeight": "bold",
+      "color": "#333"
+    },
+    "width": 250,  
+    "height": 400, 
+    "data": {
+      "url": "https://raw.githubusercontent.com/brandonsbd/3179/refs/heads/main/data/da_otp.csv"
+    },
+    "mark": "point",
+    "encoding": {
+      "x": {
+        "field": "Sectors_Scheduled",
+        "type": "quantitative",
+        "title": "Number of Sectors Scheduled"
+      },
+      "y": {
+        "field": "Departures_On_Time",
+        "type": "quantitative",
+        "title": "Number of On-Time Departures"
+      },
+      "color": {
+        "field": "Airline",
+        "type": "nominal",
+        "title": "Airline"
+      },
+      "tooltip": [
+        {"field": "Airline", "type": "nominal", "title": "Airline"},
+        {"field": "Sectors_Scheduled", "type": "quantitative", "title": "Sectors Scheduled"},
+        {"field": "Departures_On_Time", "type": "quantitative", "title": "On-Time Departures"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    }
+  }
+  

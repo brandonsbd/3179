@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Average On-Time Performance by Airline and Month (Over 5 Years)",
+    "title": {
+      "text": "Average On-Time Performance by Airline and Month",
+      "anchor": "start", 
+      "fontSize": 24,
+      "font": "Merriweather",
+      "fontWeight": "bold",
+      "color": "#333"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/brandonsbd/3179/refs/heads/main/data/da_otp.csv"
+    },
+    "transform": [
+      {
+        "calculate": "datum.Departures_On_Time / datum.Sectors_Flown * 100",
+        "as": "On_Time_Performance"
+      },
+      {
+        "aggregate": [
+          {
+            "op": "mean",
+            "field": "On_Time_Performance",
+            "as": "Avg_On_Time_Performance"
+          }
+        ],
+        "groupby": ["Airline", "Month"]
+      }
+    ],
+    "mark": "rect",
+    "encoding": {
+      "x": {
+        "field": "Month",
+        "type": "ordinal",
+        "title": "Month",
+        "sort": [
+          "Jan-20", "Feb-20", "Mar-20", "Apr-20", "May-20", "Jun-20",
+          "Jul-20", "Aug-20", "Sep-20", "Oct-20", "Nov-20", "Dec-20"
+        ]
+      },
+      "y": {
+        "field": "Airline",
+        "type": "nominal",
+        "title": "Airline"
+      },
+      "color": {
+        "field": "Avg_On_Time_Performance",
+        "type": "quantitative",
+        "scale": {
+          "scheme": "redyellowblue"
+        },
+        "title": "Average On-Time Performance (%)"
+      },
+      "tooltip": [
+        {"field": "Airline", "type": "nominal"},
+        {"field": "Month", "type": "ordinal"},
+        {"field": "Avg_On_Time_Performance", "type": "quantitative", "format": ".1f"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelFontSize": 12,
+        "titleFontSize": 14
+      }
+    }
+  }
+  

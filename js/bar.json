@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar Chart: Destination Reliability Based on Percentage of On-Time Arrivals",
+  "title": {
+    "text": "Flight Destination Reliability",
+    "anchor": "start", 
+    "fontSize": 24,
+    "font": "Merriweather",
+    "fontWeight": "bold",
+    "color": "#333"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/brandonsbd/3179/refs/heads/main/data/da_otp.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.Arrivals_On_Time / datum.Sectors_Flown * 100",
+      "as": "Arrival_Reliability_Percentage"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "Arrival_Reliability_Percentage",
+          "as": "Avg_Arrival_Reliability"
+        }
+      ],
+      "groupby": ["Arriving_Port"]
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Avg_Arrival_Reliability",
+      "type": "quantitative",
+      "title": "On-Time Arrival Percentage (%)"
+    },
+    "y": {
+      "field": "Arriving_Port",
+      "type": "nominal",
+      "title": "Destination",
+      "sort": "-x"
+    },
+    "color": {
+      "field": "Avg_Arrival_Reliability",
+      "type": "quantitative",
+      "title": "Reliability (%)",
+      "scale": {"scheme": "blues"}
+    },
+    "tooltip": [
+      {"field": "Arriving_Port", "type": "nominal", "title": "Destination"},
+      {"field": "Avg_Arrival_Reliability", "type": "quantitative", "title": "On-Time Arrival (%)"}
+    ]
+  },
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 14
+    },
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
