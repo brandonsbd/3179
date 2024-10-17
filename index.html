@@ -5,36 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Australian Domestic Airlines On-Time Performance</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Vega and Vega-Lite Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
     <h1>Australian Domestic Airlines On-Time Performance</h1>
-
-    <!-- Description text block -->
     <div class="description-text">
         <p>The Bureau of Infranstructure, Transport and Regional Economics monitors the punctuality and reliability of major domestic airlines operating between Australian airports. The original dataset contains data from 2004, however to keep relevancy only data from 2020 onwards will be contributed to the visualization. The purpose of this visualization is to present the data in a easily interpretable way to assist the evaluation of industry performance and aid air travel consumers in making informed decisions.</p>
     </div>
-
-    <!-- Map -->
     <div class="map-container">
         <div id="map-chart"></div>
     </div>
-
-    <!-- Sight line with heading below -->
     <div class="section-divider">
-        <hr class="sight-line"> <!-- Sight line -->
-        <h2 class="section-heading">Flight Performance Insights</h2> <!-- Heading below the line -->
+        <hr class="sight-line"> 
+        <h2 class="section-heading">Flight Performance Insights</h2> 
     </div>
-
-    <!-- New Description Text Block Below the Heading -->
     <div class="description-text">
       <p>In this section, overall performance of airlines in Australia is analysed, focusing on key metrics such as on-time performance, cancellations, and overall reliability. This data is intended to provide insights into how airlines have been operating over the years and help identify trends or issues that may impact travelers.</p>
     </div>
-          
-    <!-- Two charts side by side -->
     <div class="two-column">
       <div id="scatterplot-container">
           <div id="scatterplot-chart"></div>
@@ -45,41 +34,22 @@
           <p class="chart-description">The chart visualizes the percentage of flights that were canceled out of the total number of scheduled flights for each airline.</p>
       </div>
   </div>
-
-    <!-- Heatmap -->
     <div class="heatmap-container">
         <div id="heatmap-chart"></div>
     </div>
-
-    <!-- New Description Text Block Below the Heading -->
     <div class="description-text">
       <p>Qantas and Virgin Australia appear to be strong, reliable airlines with fewer performance issues, while Tigerair Australia and Bonza exhibit more variability in their punctuality. The gradual recovery in on-time performance across most airlines in 2023 and 2024 may indicate that the industry is stabilizing after the disruptions caused by the pandemic.</p>
     </div>
-
-    <!-- Two more charts side by side -->
     <div class="two-column">
         <div id="bar-chart"></div>
         <div id="treemap-chart"></div>
     </div>
-
-    <!-- Embedding the Vega-Lite charts -->
     <script>
-        // Map
         vegaEmbed('#map-chart', 'js/map.json').catch(console.error);
-
-        // Scatter Plot
         vegaEmbed('#scatterplot-chart', 'js/scatterplot.json').catch(console.error);
-
-        // Cancellations Chart
         vegaEmbed('#cancellation-chart', 'js/cancellation.json').catch(console.error);
-
-        // Heatmap
         vegaEmbed('#heatmap-chart', 'js/heatmap.json').catch(console.error);
-
-        // Bar Chart
         vegaEmbed('#bar-chart', 'js/bar.json').catch(console.error);
-
-        // Treemap Chart
         vegaEmbed('#treemap-chart', 'js/treemap.json').catch(console.error);
     </script>
 <footer class="footer">
